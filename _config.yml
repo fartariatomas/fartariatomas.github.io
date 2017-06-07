@@ -1,5 +1,4 @@
 name: Tomas Fartaria
 mardown: kramdown
 permalink: /blog/:year/:month/:day/:title
-paginate: 5
 
