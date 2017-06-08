@@ -3,7 +3,7 @@ layout: default
 title: What I'm doing now 
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 I'm living in Lisbon, Portugal with my wife, (1 month old) kid and dog.
 
@@ -22,5 +22,5 @@ My interests now are:
   * technical stuff: [AWS Certified Solutions Architect Official Study Guide]("https://www.safaribooksonline.com/library/view/aws-certified-solutions/9781119138556/")
 
 
-This update was 7th of June 2017.
+This update was 8th of June 2017.
 
