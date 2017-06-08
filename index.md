@@ -8,7 +8,9 @@ title: Tomas Fartaria
 
 <ul class="posts">
     {% for post in site.posts %}
-        <li><p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p></li>
+        <li>
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </li>
     {% endfor %}
 </ul>
 

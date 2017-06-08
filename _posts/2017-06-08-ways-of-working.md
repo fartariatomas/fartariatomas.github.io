@@ -5,32 +5,32 @@ title: "Great Ways of Working"
 
 If you are looking for a git worflow for your project (either personal or professional), I strongly suggest that you take a look at the Ways of Working (WOW) below, wrote by my colleague [Alessandro Resta](https://www.linkedin.com/in/alessandroresta/)
 
+***
 
 # Ways of Working
-   
-   * [Overview](##Overview)
-   * [Definition of Done](##markdown-header-definition-of-done)
-   * [Issue tracking](##markdown-header-issue-tracking)
-   * [Topic branches](##markdown-header-topic-branches)
-   * [Commit messages](##markdown-header-commit-messages)
-   * [Changelog](##markdown-header-commit-changelog)
-   * [Code review](##markdown-header-code-review)
-   * [Release](##markdown-header-release)
-   * [Gitflow](##markdown-header-gitflow)
-   
-   
-   
-   ## Overview
-   
-   This project is version tracked with Git and available in the [my-project](https://bitbucket.org/account/user/marionete/projects/SYN) repository on Bitbucket.
-   
-   The main branch is called `master` and contains the most updated and stable version of the code.
-   
-   Features and bug fixes are implemented in topic branches which stem from the mainline (master branch) and should be merged into `master` as soon as the implementation attends to the [Definition of Done](#Definition-of-done). If the feature/fix takes longer than **X** days to be concluded, please consult with the team.
+  * [Overview](#overview)
+  * [Definition of Done](#definition-of-done)
+  * [Issue tracking](#issue-tracking)
+  * [Topic branches](#topic-branches)
+  * [Commit messages](#commit-messages)
+  * [Changelog](#commit-changelog)
+  * [Code review](#code-review)
+  * [Release](#release)
+  * [Gitflow](#gitflow)
    
    
    
-   ## Definition of Done
+## Overview  <a id="overview"></a>
+   
+  This project is version tracked with Git and available in the [my-project](https://bitbucket.org/account/user/marionete/projects/SYN) repository on Bitbucket.
+  
+  The main branch is called `master` and contains the most updated and stable version of the code.
+   
+  Features and bug fixes are implemented in topic branches which stem from the mainline (master branch) and should be merged into `master` as soon as the implementation attends to the [Definition of Done](#definition-of-done). If the feature/fix takes longer than **X** days to be concluded, please consult with the team.
+   
+   
+   
+## Definition of Done  <a id="definition-of-done"></a>
    
    * code written and validated
    * tests written (unit, acceptance)
@@ -42,7 +42,7 @@ If you are looking for a git worflow for your project (either personal or profes
    
    
    
-   ## Issue tracking
+ ## Issue tracking  <a id="issue-tracking"></a>
    
    Every `feature` and `fix` must have an issue linked to it. Issues are kept in [Jira Issues](https://marionete.atlassian.net/secure/RapidBoard.jspa?rapidView=32&projectKey=SYN).
    
@@ -50,7 +50,7 @@ If you are looking for a git worflow for your project (either personal or profes
    
    
    
-   ## Topic branches
+ ## Topic branches  <a id="topic-branches"></a>
    
    Tasks are implemented on topic branches stemming from the `master` branch and **must** be created using the web interface provided by Jira by clicking on `Create branch` on the issue panel.
    It will automatically change the issue status to `in progress`, flagging to everyone else in the project that the feature or fix is under development.
@@ -70,7 +70,7 @@ If you are looking for a git worflow for your project (either personal or profes
    
    
    
-   ## Commit messages
+ ## Commit messages  <a id="commit-messages"></a>
    
    Commit messages should be written on the following pattern:
    
@@ -109,7 +109,7 @@ If you are looking for a git worflow for your project (either personal or profes
    ```
    
    
-   ## Changelog
+ ## Changelog  <a id="commit-changelog"></a>
    
    The project change log must be updated on every task implementation as exemplified bellow:
    
@@ -121,16 +121,16 @@ If you are looking for a git worflow for your project (either personal or profes
    ```
    
    
-   ## Code review
+ ## Code review  <a id="code-review"></a>
    
-   With a task completed (see: [DoD](#markdown-header-definition-of-done)) a `Pull Request` must be open.
+   With a task completed (see: [DoD](#definition-of-done)) a `Pull Request` must be open.
    
    Provide the necessary information in the description area to help other team members to understand the changes that your code proposes. Make reference to the issue tracker related to your task.
    
    For convenience, the pull request (PR) title can be the same as the topic branch name (slightly formatted).
    
-   ### Reviewer guidelines
-   
+ ### Reviewer guidelines
+ 
    The main areas to focus during the code review:
    
    * unit tests coverage and quality
@@ -149,8 +149,8 @@ If you are looking for a git worflow for your project (either personal or profes
    2. code was reviewed and approved by at least 50% of the team
    3. code was approved by Product Owner and lead member of technical staff related to the task
    
-   ### Tips for the Reviewer
-   
+ ### Tips for the Reviewer
+ 
    * critique code instead of people "be kind to the coder, not to the code".
    * treat people who know less than you with respect, deference, and patience.
    * the only true authority stems from knowledge, not from position.
@@ -164,30 +164,30 @@ If you are looking for a git worflow for your project (either personal or profes
    * keep feedback near the code in question to optimize the review.
    
    
-   ## Release
+ ## Release  <a id="release"></a>
    
    Code is released manualy under the Product Owner's approval using `annotated git tags` and follows the [Semantic Versioning 2.0.0](http://semver.org/spec/v2.0.0.html) specification.
    
-   ### Tagging versions
-   
+ ### Tagging versions
+ 
    ```
    git tag -a 1.0.0 -m 'the foo release'
    git push origin --tags
    ```
    
    
-   ## Gitflow
+ ## Gitflow  <a id="gitflow"></a>
    
-   #### 1. Create topic branch
+ #### 1. Create topic branch
    
    ```
    git fetch
    git checkout <branch-created-on-jira>
    ```
    
-   #### 2. Code < insert your magic here >
+ #### 2. Code < insert your magic here >
    
-   #### 3. Push your code
+ #### 3. Push your code
    
    It is strongly recommended to often push your code to the remote repository.
    
@@ -197,7 +197,7 @@ If you are looking for a git worflow for your project (either personal or profes
    git push -u origin <topic-branch>
    ```
    
-   #### 4. Update topic branch with latest changes from the mainline
+ #### 4. Update topic branch with latest changes from the mainline
    
    ```
    git checkout master
@@ -212,13 +212,13 @@ If you are looking for a git worflow for your project (either personal or profes
    * update the topic branch with any possible change on master
    * force the topic branch push to the origin
    
-   #### 5. Open a Pull Request
+ #### 5. Open a Pull Request
    
-   Before merging a topic branch into the mainline a pull request must be open. See [Principles for Evaluating Pull Requests](docs/pull-request-evaluation.md).
+   Before merging a topic branch into the mainline a pull request must be open.
    
    Announce the pull request in the project's channel on Slack and make a *Call for Review*.
    
-   #### 6. Merge the topic branch
+ #### 6. Merge the topic branch
    
    Announce in the Slack channel that you will merge your work.
    
@@ -232,7 +232,7 @@ If you are looking for a git worflow for your project (either personal or profes
    git push origin master
    ```
    
-   #### 7. Clean your stuff
+ #### 7. Clean your stuff
    
    * remove the topic branch from your local repository
    * remove the topic branch from the remote repository
@@ -245,11 +245,9 @@ If you are looking for a git worflow for your project (either personal or profes
    
    Tell your colleagues that the merging process is completed.
    
-   #### 8. If something goes wrong please don't try to fix it by yourself. **Communicate with the rest of the team**.
+ #### 8. If something goes wrong please don't try to fix it by yourself. **Communicate with the rest of the team**.
    
-   
-   
-   ### Reference
+ ### Reference
    
    - [Bitbucket issue resolve](https://confluence.atlassian.com/bitbucket/resolve-issues-automatically-when-users-push-code-221451126.html)
    - [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
