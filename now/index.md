@@ -7,14 +7,20 @@ title: What I'm doing now
 
 I'm living in Lisbon, Portugal with my wife, (1 month old) kid and dog.
 
-I'm working in Marionete, a big data, data science and devops consultancy company. They have several partnerships with major players and everybody here is super competitive and driven to improve. They are actually hiring so if you are interested in learning and working with the newest open-source tech, email me and I'll forward your CV.</p>
+I'm working in [Marionete]("https://marionete.co.uk/"), a big data, data science and devops consultancy company. They have several [partnerships]("https://marionete.co.uk/company/#partners") with major players and everybody here is super competitive and driven to improve. 
+They are actually hiring so if you are interested in learning and working with the newest open-source tech, email me and I'll forward your CV.</p>
 
 The technologies I am currently dealing with more are:
 * Scala
 * Apache Kafka
 * Apache Cassandra
 
-My interests now range from taking care of my family, reading (science fiction (Cycle of Arawn) and technical books(Learning Cassandra).
+My interests now are:
+* enjoying being a first-time father
+* reading:
+  * science fiction: [Cycle of Arawn]("https://www.goodreads.com/book/show/23359401-the-cycle-of-arawn?ac=1&from_search=true")
+  * technical stuff: [AWS Certified Solutions Architect Official Study Guide]("https://www.safaribooksonline.com/library/view/aws-certified-solutions/9781119138556/")
+
 
 This update was 7th of June 2017.
 
