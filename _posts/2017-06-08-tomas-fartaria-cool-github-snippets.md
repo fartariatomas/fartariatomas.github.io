@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Useful code snippets"
-date: 2017-06-08
 ---
 
 * Enable autocorrect:
