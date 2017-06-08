@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Tomas Fartaria
+title: Tomás Fartaria
 ---    		
-## Hi there, I'm Tomas Fartaria!
+# {{ page.title }}
 
 I'm living in Lisbon, Portugal with my wife, (1 month old) kid and dog.
 
@@ -27,7 +27,7 @@ This update was 8th of June 2017.
 <ul class="posts">
     {% for post in site.posts %}
         <li>
-            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <span>{{ post.date | date_to_string }}</span> > <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         </li>
     {% endfor %}
 </ul>
