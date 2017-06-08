@@ -2,14 +2,11 @@
 layout: default
 title: Tomás Fartaria
 ---    		
-# {{ page.title }}
-
-***
 
 I'm living in Lisbon, Portugal with my wife, (1 month old) kid and dog.
 
 I'm working in [Marionete]("https://marionete.co.uk/"), a big data, data science and devops consultancy company. They have several [partnerships]("https://marionete.co.uk/company/#partners") with major players and everybody here is super competitive and driven to improve. 
-They are actually hiring so if you are interested in learning and working with the newest open-source tech, email me and I'll forward your CV.</p>
+They are actually hiring so if you are interested in learning and working with the newest open-source tech, email me and I'll forward your CV.
 
 The technologies I am currently dealing with more are:
 * Scala
@@ -25,7 +22,9 @@ My interests now are:
 
 This update was 8th of June 2017.
 
-## Blog
+***
+
+# Blog
 <ul class="posts">
     {% for post in site.posts %}
         <li>

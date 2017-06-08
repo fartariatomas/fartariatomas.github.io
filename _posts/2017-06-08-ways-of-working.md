@@ -7,7 +7,7 @@ If you are looking for a git worflow for your project (either personal or profes
 
 ***
 
-# Ways of Working
+## Ways of Working
   * [Overview](#overview)
   * [Definition of Done](#definition-of-done)
   * [Issue tracking](#issue-tracking)
