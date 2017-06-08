@@ -4,6 +4,8 @@ title: Tomás Fartaria
 ---    		
 # {{ page.title }}
 
+***
+
 I'm living in Lisbon, Portugal with my wife, (1 month old) kid and dog.
 
 I'm working in [Marionete]("https://marionete.co.uk/"), a big data, data science and devops consultancy company. They have several [partnerships]("https://marionete.co.uk/company/#partners") with major players and everybody here is super competitive and driven to improve. 
