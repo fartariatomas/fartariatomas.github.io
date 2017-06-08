@@ -3,9 +3,9 @@ layout: post
 title: "Great Ways of Working"
 ---
 
-If you are looking for a git worflow for your project (either personal or professional), I strongly suggest that you take a look at the Ways of Working (WOW) below, wrote by my colleague[Alessandro Resta](https://www.linkedin.com/in/alessandroresta/)
+If you are looking for a git worflow for your project (either personal or professional), I strongly suggest that you take a look at the Ways of Working (WOW) below, wrote by my colleague [Alessandro Resta](https://www.linkedin.com/in/alessandroresta/)
 
-<blockquote>
+
 # Ways of Working
    
    * [Overview](##Overview)
@@ -256,4 +256,4 @@ If you are looking for a git worflow for your project (either personal or profes
    - [Code Review Guidelines](http://www.codeproject.com/Articles/524235/Codeplusreviewplusguidelines)
    - [Semantic Versioning 2.0.0](http://semver.org/spec/v2.0.0.html)
    - [Git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)```   
-</blockquote>
+
