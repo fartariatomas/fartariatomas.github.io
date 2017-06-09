@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>{{ page.title }}</title>
-    <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-<body>
 
-<h1><a href="/">Tomás Fartaria</a></h1>
+  {% include head.html %}
 
-<hr/>
+  <body>
 
-<div class="container">
+    {% include header.html %}
 
-    {{ content }}
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
-</div><!-- /.container -->
-<footer>
-    <ul>
-        <li><a href="mailto:fartaria.tomas@gmail.com">email me</a></li>
-        <li><a href="https://github.com/fartariatomas">check my github</a></li>
-    </ul>
-</footer>
-</body>
+    {% include footer.html %}
+
+  </body>
+
 </html>

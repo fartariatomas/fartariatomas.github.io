@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Useful code snippets"
+categories: code
 ---
 
 * Enable autocorrect:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Great Ways of Working"
+categories: code
 ---
 
 If you are looking for a git worflow for your project (either personal or professional), I strongly suggest that you take a look at the Ways of Working (WOW) below, wrote by my colleague [Alessandro Resta](https://www.linkedin.com/in/alessandroresta/)
