@@ -16,6 +16,7 @@ What I am up to now:
 * watching:
   * [AWS re:Invent 2015](https://www.youtube.com/watch?v=1TvJCLl9NNg)
   * [Introduction to cloud computing with Amazon Web Services](https://www.safaribooksonline.com/library/view/introduction-to-cloud/9781771374118/video218653.html?autoStart=True)
+  * [AWS Certified Developer - Associate Tutorial](https://www.safaribooksonline.com/library/view/aws-certified-developer/9781788298384/)
 
 @home
 * enjoying being a first-time father
