@@ -1,0 +1,16 @@
+* { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+
+head { text-align: center; }
+
+body { margin: 60px auto; width: 60%; }
+
+h1 { text-align: center; }
+h1 a {font-weight: bold; color: black; }
+
+nav { text-align: center; }
+nav ul, footer ul { font-size: 1.5em; padding: 0px; list-style: none; font-weight: bold; }
+nav ul li, footer ul li { display: inline; margin-right: 20px; }
+footer { text-align:center; border-top: 1px solid #d5d5d5; font-size: .8em; }
+
+a { text-decoration: none; color: #999; }
+a:hover { text-decoration: underline; }
